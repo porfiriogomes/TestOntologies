@@ -35,7 +35,6 @@
     },
     "hasParents": {	
       "@id": "LGeoSIMOntology:hasParents",
-      "@container": "@list",
       "@type": "@id"
     },
     "attachedToSchoolS": {
