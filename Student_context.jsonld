@@ -29,14 +29,14 @@
       "@id": "LGeoSIMOntology:hasDiscResults",
       "@container": "@list"
     },
-    "hasSiblings": {	
+    "hasSiblings": [	
       "@id": "LGeoSIMOntology:hasSiblings",
-      "@container": "@list"
-    },
-    "hasParents": {	
+      "@type": "@id"
+    ],
+    "hasParents": [
       "@id": "LGeoSIMOntology:hasParents",
       "@type": "@id"
-    },
+    ],
     "attachedToSchoolS": {
       "@id": "LGeoSIMOntology:attachedToSchoolS",
       "@type": "@id"
