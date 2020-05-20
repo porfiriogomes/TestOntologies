@@ -1,0 +1,38 @@
+{
+  "@context": {
+    "LGeoSIMOntology": "http://www.semanticweb.org/bartirarocha/ontologies/2019/4/LGeoSIMOntology#",
+    "id": "@id",
+    "type": "@type",
+
+    "ServiceUser": "LGeoSIMOntology:ServiceUser",
+    "DomainLayerElement": "LGeoSIMOntology:DomainLayerElement",
+    "Person": "LGeoSIMOntology:Person",
+    "NeighborHood": "LGeoSIMOntology:NeighborHood",
+    "Attedance": "LGeoSIMOntology:Attedance",
+    "Service": "LGeoSIMOntology:Service",
+
+    "name":"LGeoSIMOntology:name",
+
+    "hasAttedance": {
+      "@id": "LGeoSIMOntology:hasAttedance",
+      "@container": "@list"
+    },
+    "isAServiceUserOf": {
+      "@id": "LGeoSIMOntology:isAServiceUserOf",
+      "@container": "@list"
+    },
+    "nexToPerson": {
+      "@id": "LGeoSIMOntology:nexToPerson",
+      "@container": "@list"
+    },
+    "locatedAt": {
+      "@id": "LGeoSIMOntology:locatedAt",
+      "@type": "@id"
+    },
+    "livingIn": {
+      "@id": "LGeoSIMOntology:livingIn",
+      "@type": "@id"
+    }
+  }
+}
+

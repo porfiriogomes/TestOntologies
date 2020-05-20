@@ -1,0 +1,28 @@
+{
+  "@context": {
+    "LGeoSIMOntology": "http://www.semanticweb.org/bartirarocha/ontologies/2019/4/LGeoSIMOntology#",
+    "id": "@id",
+    "type": "@type",
+
+    "Attedance": "LGeoSIMOntology:Attedance",
+    "Diagnosis": "LGeoSIMOntology:Diagnosis",
+    "Procedure": "LGeoSIMOntology:Procedure",
+    "SpecialtySupplier": "LGeoSIMOntology:SpecialtySupplier",
+
+    "date":"LGeoSIMOntology:date",
+
+    "hasDiagnosis": {
+      "@id": "LGeoSIMOntology:hasDiagnosis",
+      "@container": "@list"
+    },
+    "makeProcedure": {
+      "@id": "LGeoSIMOntology:makeProcedure",
+      "@container": "@list"
+    },
+    "attendedBy": {
+      "@id": "LGeoSIMOntology:locatedAt",
+      "@container": "@list"
+    }
+  }
+}
+

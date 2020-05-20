@@ -1,0 +1,23 @@
+{
+  "@context": {
+    "LGeoSIMOntology": "http://www.semanticweb.org/bartirarocha/ontologies/2019/4/LGeoSIMOntology#",
+    "id": "@id",
+    "type": "@type", 
+
+    "municipio": "LGeoSIMOntology:City",
+    "bairro": "LGeoSIMOntology:NeighborHood",
+    "quadra": "LGeoSIMOntology:Block",
+
+    "description":"https://schema.org/description",
+    "location": "http://uri.etsi.org/ngsi-ld/location",
+
+    "isPartOf": "LGeoSIMOntology:isPartOf",
+    "locatedAt": "LGeoSIMOntology:locatedAt",
+
+    "neighborOf": {
+      "@id": "LGeoSIMOntology:neighborOf",
+      "@type": "@id",
+      "@container":"@list"
+    }
+  }
+}

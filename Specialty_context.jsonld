@@ -1,0 +1,18 @@
+{
+  "@context": {
+    "LGeoSIMOntology": "http://www.semanticweb.org/bartirarocha/ontologies/2019/4/LGeoSIMOntology#",
+    "id": "@id",
+    "type": "@type",
+
+    "Specialty": "LGeoSIMOntology:Specialty",
+    "SpecialtySupplier": "LGeoSIMOntology:SpecialtySupplier",
+
+    "description":"https://schema.org/description",
+
+    "providedBySupplier": {
+      "@id": "LGeoSIMOntology:providedBySupplier",
+      "@container": "@list"
+    }
+  }
+}
+
