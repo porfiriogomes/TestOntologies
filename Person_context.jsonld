@@ -21,9 +21,11 @@
     },
     "hasParents": {
       "@id": "LGeoSIMOntology:hasParents",
+      "@type": "@id"
     },
     "hasChildren": {
       "@id": "LGeoSIMOntology:hasChildren",
+      "@type": "@id"
     }
   }    
 }
