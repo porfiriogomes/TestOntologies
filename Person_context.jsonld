@@ -21,11 +21,9 @@
     },
     "hasParents": {
       "@id": "LGeoSIMOntology:hasParents",
-      "@container": "@list"
     },
     "hasChildren": {
       "@id": "LGeoSIMOntology:hasChildren",
-      "@container": "@list"
     }
   }    
 }
