@@ -19,14 +19,14 @@
       "@id": "LGeoSIMOntology:locatedAt",
       "@type": "@id"
     },
-    "hasParents": [
+    "hasParents": {
       "@id": "LGeoSIMOntology:hasParents",
       "@type": "@id"
-    ],
-    "hasChildren": [
+     },
+    "hasChildren": {
       "@id": "LGeoSIMOntology:hasChildren",
       "@type": "@id"
-    ]
+    }
   }    
 }
 
