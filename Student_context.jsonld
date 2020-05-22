@@ -47,7 +47,7 @@
     },
     "nexToPerson": {
       "@id": "LGeoSIMOntology:nexToPerson",
-      "@container": "@list"
+      "@type": "@id"
     },
     "livingIn": {
       "@id": "LGeoSIMOntology:livingIn",
